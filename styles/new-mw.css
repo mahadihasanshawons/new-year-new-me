@@ -1,3 +1,9 @@
+body {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 header {
     background-image: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
@@ -70,15 +76,18 @@ h3 {
 }
 
 .hero-contain {
-    padding: 120px;
+    padding: 90px;
 }
-li{
+
+li {
     list-style: none;
 }
- .check-mark{
-    color: #16d887; 
-    padding-right:3px;
+
+.check-mark {
+    color: #16d887;
+    padding-right: 10px;
 }
+
 .my-plans {
     display: flex;
     max-width: 1140px;
@@ -105,7 +114,7 @@ li{
 .banner-footer {
     max-width: 1140px;
     height: 300px;
-    background-image:url(../images/gradient2.png),url(../images/watch.png);
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
     background-size: cover;
     margin: 0 auto;
 }
@@ -127,25 +136,112 @@ li{
     font-weight: 600;
     background-color: #FFF;
 }
-footer{
+
+/* Contact Style */
+
+.contact,
+h2 {
+    text-align: center;
+
+}
+
+.contact-detiels-container {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    max-width: 1210px;
+    margin: 0 auto;
+    justify-content: space-between;
+    /* max-width: 35%; */
+}
+
+.contact-form {
+    max-width: 65%;
+}
+
+.contact-information {
+    background-color: #000000;
+    border-radius: 5px;
+    text-align: left;
+    padding: 40px;
+}
+
+.contact-information>h3 {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.contact-information>p {
+    color: #FFF;
+    margin-bottom: 50px;
+}
+
+.name-taken-name {
+    display: flex;
+}
+
+.taken-contact {
+    display: flex;
+}
+
+.taken-info {
+    padding: 30px;
+    text-align: left;
+}
+
+.taken-info input {
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+.taken-info div {
+    padding: 20px;
+}
+
+textarea {
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer style */
+footer {
     background-color: #151414;
     margin-top: 50px;
     padding: 80px;
 }
-.footer-container{
+
+.footer-container {
     max-width: 1140px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between
 }
+
 .sp-color {
     color: #FFF;
     text-align: left;
 }
-.footer-contant{
+
+.footer-contant {
     max-width: 485px;
 }
-input{
+
+input {
     display: block;
     width: 325px;
     height: 64px;
